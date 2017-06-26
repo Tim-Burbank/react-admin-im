@@ -1,0 +1,90 @@
+.login_page .content {
+  position: relative;
+  margin-top: 95px;
+  min-height: 485px;
+  vertical-align: middle;
+  min-width: 1000px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  zoom: 1;
+  display: flex;
+  justify-content: space-between; }
+  .login_page .content .img {
+    height: 300px;
+    margin-top: 47px;
+    margin-left: 97px; }
+  .login_page .content .login {
+    height: 100%;
+    position: absolute;
+    right: 160px; }
+    .login_page .content .login .logInBtn {
+      width: 248px;
+      height: 34px;
+      background-color: #00a2ca;
+      border-color: #00a2ca; }
+    .login_page .content .login h1 {
+      font-size: 34px;
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 20px; }
+    .login_page .content .login .login-wrap {
+      position: relative; }
+    .login_page .content .login .ant-form {
+      margin-top: -100px;
+      width: 292px;
+      height: 320px;
+      background: rgba(255, 255, 255, 0.3);
+      border: 1px solid #D4D4D4;
+      padding: 30px 22px 50px;
+      position: relative; }
+    .login_page .content .login label {
+      font: 400 12px arial;
+      font-weight: 700; }
+.login_page .header {
+  height: 72px;
+  width: 100%;
+  background-color: rgba(44, 48, 52, 0.95) !important; }
+  .login_page .header .container {
+    position: relative;
+    height: 100%;
+    margin: 0 auto; }
+    .login_page .header .container .nav_header {
+      height: 100%; }
+      .login_page .header .container .nav_header .nav_right {
+        float: right;
+        margin-right: 161px;
+        height: 100%;
+        padding-top: 11px; }
+        .login_page .header .container .nav_header .nav_right .locale-btn {
+          margin: 0 auto;
+          width: 174px;
+          height: 40px;
+          font-size: 16px;
+          font-weight: normal; }
+      .login_page .header .container .nav_header .logo {
+        font-size: 20px;
+        line-height: 52px;
+        color: #fff;
+        height: 100%;
+        width: 168px;
+        float: left; }
+.login_page .footer {
+  height: 132px;
+  width: 100%;
+  background-color: #4B5054; }
+  .login_page .footer .container {
+    padding-bottom: 15px;
+    margin: 0 auto; }
+    .login_page .footer .container .menu {
+      height: 77px; }
+    .login_page .footer .container .text {
+      color: rgba(255, 255, 255, 0.69); }
+@media (min-width: 992px) {
+  .login_page .container {
+    width: 970px; } }
+@media (min-width: 1200px) {
+  .login_page .container {
+    width: 1200px; } }
+
+/*# sourceMappingURL=login.css.map */

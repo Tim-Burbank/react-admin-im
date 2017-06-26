@@ -1,0 +1,72 @@
+@import '../../styles/base';
+.layout-main{
+  min-height: 110%;
+  .ant-layout-sider-collapsed{
+    .anticon {
+      font-size: 16px;
+      margin-left: 8px;
+    }
+    .nav-text {
+      display: none;
+    }
+    .ant-menu-submenu-vertical > .ant-menu-submenu-title:after {
+      display: none;
+    }
+    .logo{
+      display:none
+    }
+    .logout{
+      display:none
+    }
+    //.user-name{
+    //  padding:0 7px 0 5px;
+    //  overflow: hidden;
+    //  text-overflow: ellipsis;
+    //}
+  }
+  .logo {
+    height: 32px;
+    background: #333;
+    border-radius: 6px;
+    margin: 32px 16px 32px 16px;
+    margin-bottom:0;
+    .word {
+      color:white;
+      margin:0 auto;
+      line-height:30px;
+      font-size:30px;
+      font-weight:bold;
+      text-align: center;
+    }
+  }
+}
+.sider-user{
+  text-align:center;
+  color:#ccc;
+  margin:50px 0 30px;
+}
+
+.sider-main{
+  background-color: #404040;
+  .divider{
+    margin:10px 10px 5px;
+    height: 0;
+    border-right:0;
+    border-top:#444 solid 1px;
+    border-bottom:#555 solid 1px;
+  }
+  .ant-menu.ant-menu-vertical{
+    .ant-menu-item-selected{
+      background-color: rgba($primary,0.5);
+    }
+  }
+}
+
+.content{
+  margin: 0 10px;
+  min-height: 100%;
+  background: #fff;
+  .content-wrap{
+    padding: 15px;
+  }
+}

@@ -1,0 +1,134 @@
+// alert
+.ant-alert-icon{
+  top: 7px;
+}
+.ant-alert-info{
+  background-color: rgb(255,253,240);
+  border:1px dashed rgb(212,180,93);
+  border-radius:4px;
+}
+
+// form
+label{
+  font-size: 14px;
+}
+.form-lg{
+  label,.ant-cascader-picker{
+    font-size: 16px;
+  }
+  .ant-calendar-picker{
+    display: block;
+  }
+  .ant-select{
+    font-size: 16px;
+  }
+  .ant-select-lg{
+    min-height: 40px;
+    line-height: 40px;
+    .ant-select-selection{
+      height: 40px;
+      line-height: 40px;
+    }
+    .ant-select-selection__rendered{
+      line-height: 38px;
+    }
+  }
+  .ant-input-lg{
+    font-size: 16px;
+    padding:6px 7px;
+  }
+  input.ant-input-lg{
+    height: 40px;
+  }
+}
+
+//  message
+.ant-message{
+  top:50%;
+  margin-top: -100px;
+  font-size:20px;
+  .anticon{
+    font-size:28px;
+  }
+}
+.ant-message-notice-content{
+  background-color: rgba(255,255,255,0.8);
+  //box-shadow: none;
+  padding: 18px 26px;
+}
+
+  // modal
+.ant-modal-footer{
+  .ant-btn-lg{
+    padding:4px 15px 5px;
+    font-size:14px;
+  }
+}
+
+.ant-btn{
+  line-height: 0.5;
+}
+
+
+// table
+.ant-table-tbody{
+  .amount{
+    display: block;
+    text-align: right;
+  }
+  .money{
+    text-align: right;
+  }
+  .operate{
+    a{
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+  }
+  >tr.editRow{
+    >td{
+      background-color: $row-select;
+    }
+  }
+}
+.ant-table-footer{
+  .amount{
+    color: $highlight-color;
+    font-weight: bold;
+  }
+}
+.ant-table-middle{
+  .ant-table-footer{
+    background-color: transparent;
+  }
+}
+.ant-table-small{
+  .ant-table-thead>tr>th{
+    background-color: rgb(247,247,247);
+  }
+  .ant-table-footer{
+    background-color:transparent;
+  }
+  .ant-table-body>table{
+    padding: 0;
+  }
+}
+.small-table{
+  .ant-table-small{
+    border:none;
+    .ant-table-thead>tr>th{
+      background-color: transparent;
+      line-height: 1.2;
+    }
+    .ant-table-body td{
+      line-height: 1.2;
+    }
+  }
+}
+
+// Tooltip
+.ant-tooltip{
+  img{
+    max-width: 100%;
+  }
+}

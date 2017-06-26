@@ -1,0 +1,33 @@
+/*
+Application Settings Go Here
+------------------------------------
+This file acts as a bundler for all variables/mixins/themes, so they
+can easily be swapped out without `core.scss` ever having to know.
+
+For example:
+
+@import './variables/colors';
+@import './variables/components';
+@import './themes/default';
+*/
+.payment-read {
+  margin: 10px 50px; }
+  .payment-read h4 {
+    color: #108ee9;
+    font-size: 16px;
+    padding-top: 15px; }
+  .payment-read .payment-row {
+    border-bottom: #ddd solid 1px;
+    padding-bottom: 15px;
+    margin-bottom: -1px; }
+  .payment-read .payment-label {
+    display: inline-block; }
+    .payment-read .payment-label:after {
+      content: ':';
+      margin-left: 3px; }
+  .payment-read .payment-value {
+    margin-left: 5px; }
+  .payment-read .payment-item {
+    margin-top: 15px; }
+
+/*# sourceMappingURL=supplierInfo.css.map */

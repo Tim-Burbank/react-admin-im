@@ -1,0 +1,63 @@
+/*
+Application Settings Go Here
+------------------------------------
+This file acts as a bundler for all variables/mixins/themes, so they
+can easily be swapped out without `core.scss` ever having to know.
+
+For example:
+
+@import './variables/colors';
+@import './variables/components';
+@import './themes/default';
+*/
+.layout-main {
+  min-height: 110%; }
+  .layout-main .ant-layout-sider-collapsed .anticon {
+    font-size: 16px;
+    margin-left: 8px; }
+  .layout-main .ant-layout-sider-collapsed .nav-text {
+    display: none; }
+  .layout-main .ant-layout-sider-collapsed .ant-menu-submenu-vertical > .ant-menu-submenu-title:after {
+    display: none; }
+  .layout-main .ant-layout-sider-collapsed .logo {
+    display: none; }
+  .layout-main .ant-layout-sider-collapsed .logout {
+    display: none; }
+  .layout-main .logo {
+    height: 32px;
+    background: #333;
+    border-radius: 6px;
+    margin: 32px 16px 32px 16px;
+    margin-bottom: 0; }
+    .layout-main .logo .word {
+      color: white;
+      margin: 0 auto;
+      line-height: 30px;
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center; }
+
+.sider-user {
+  text-align: center;
+  color: #ccc;
+  margin: 50px 0 30px; }
+
+.sider-main {
+  background-color: #404040; }
+  .sider-main .divider {
+    margin: 10px 10px 5px;
+    height: 0;
+    border-right: 0;
+    border-top: #444 solid 1px;
+    border-bottom: #555 solid 1px; }
+  .sider-main .ant-menu.ant-menu-vertical .ant-menu-item-selected {
+    background-color: rgba(16, 142, 233, 0.5); }
+
+.content {
+  margin: 0 10px;
+  min-height: 100%;
+  background: #fff; }
+  .content .content-wrap {
+    padding: 15px; }
+
+/*# sourceMappingURL=CoreLayout.css.map */
